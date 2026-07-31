@@ -25,9 +25,9 @@ Required:
 Optional:
   --source-radius <meters>   Radius the input coordinates were measured on.
                               Defaults to Earth's mean radius (${EARTH_MEAN_RADIUS_METERS} m).
-  --anchor "<lat>,<lon>"     Location where the converted shape's centroid
-                              is placed. Defaults to the source centroid
-                              (geometric center) of all coordinates.
+  --anchor "<lat>,<lon>"     Point that stays fixed while every other
+                              coordinate is rescaled around it. Defaults to
+                              the centroid (geometric center) of all coordinates.
   -h, --help                 Show this help message.
 `;
 

@@ -7,6 +7,10 @@
   "bin": {
     "kml-planet-scale": "./scale-kml.js"
   },
+  "scripts": {
+    "test": "node --test",
+    "test:cli": "node --test tests/scale-kml.test.js"
+  },
   "license": "MIT",
   "dependencies": {
     "@tmcw/togeojson": "^7.1.2",

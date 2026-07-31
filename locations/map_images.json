@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "maps": {
+    "mars": {
+      "fileName": "mars.png",
+      "sourceDescription": "Original personal image created and owned by the repository owner.",
+      "sourceUrl": null,
+      "attribution": "Repository owner (tlacours408)",
+      "redistributionAllowed": true,
+      "redistributionLicense": "MIT"
+    }
+  }
+}
